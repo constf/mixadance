@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mixadance.FM</string>
+    <string name="mixadance_name_string">Mixadance</string>
+    <string name="main_logo_description_string">Main logo of the radio App</string>
+    <string name="mixadance_click_description_string">Mixadance logo, click here to open Mixadance radio.</string>
+    <string name="mixadance_relax_description_string">Mixadance Relax logo, click here to open the Jazz radio.</string>
+    <string name="mixadance_jazz_description_string">Mixadance Jazz, clik here to open Jazz radio.</string>
+    <string name="fitness_radio_description_string">Fitness radio, click here to open the radio.</string>
+</resources>

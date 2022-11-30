@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.blinked.mixadancefm.ui.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_jazzFragment"
+            app:destination="@id/jazzFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_danceFragment"
+            app:destination="@id/danceFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_relaxFragment"
+            app:destination="@id/relaxFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_fitnessFragment"
+            app:destination="@id/fitnessFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_samuiFragment"
+            app:destination="@id/samuiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/danceFragment"
+        android:name="com.blinked.mixadancefm.ui.DanceFragment"
+        android:label="fragment_dance"
+        tools:layout="@layout/fragment_dance" />
+    <fragment
+        android:id="@+id/fitnessFragment"
+        android:name="com.blinked.mixadancefm.ui.FitnessFragment"
+        android:label="fragment_fitness"
+        tools:layout="@layout/fragment_fitness" />
+    <fragment
+        android:id="@+id/jazzFragment"
+        android:name="com.blinked.mixadancefm.ui.JazzFragment"
+        android:label="fragment_jazz"
+        tools:layout="@layout/fragment_jazz" />
+    <fragment
+        android:id="@+id/relaxFragment"
+        android:name="com.blinked.mixadancefm.ui.RelaxFragment"
+        android:label="fragment_relax"
+        tools:layout="@layout/fragment_relax" />
+    <fragment
+        android:id="@+id/samuiFragment"
+        android:name="com.blinked.mixadancefm.ui.SamuiFragment"
+        android:label="fragment_samui"
+        tools:layout="@layout/fragment_samui" />
+</navigation>
